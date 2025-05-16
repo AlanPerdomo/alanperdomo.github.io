@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt">
       <body className="flex flex-col min-h-screen bg-light-bg text-black dark:bg-dark-bg dark:text-white transition-colors duration-300">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

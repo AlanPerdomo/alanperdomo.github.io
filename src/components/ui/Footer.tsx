@@ -9,7 +9,7 @@ export default function Footer() {
       transition={{ duration: 0.6 }}
       className=" backdrop-blur bg-white/10 dark:bg-white/10 shadow-md"
     >
-      <p className="text-center p-4">Alan Perdomo</p>
+      <p className="text-center p-4">Alan Perdomo &copy; {new Date().getFullYear()}</p>
     </motion.footer>
   );
 }
