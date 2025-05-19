@@ -21,7 +21,7 @@ export default function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className=" backdrop-blur bg-white/10 dark:bg-white/10 shadow-md"
+      className=" backdrop-blur bg-header-background dark:bg-header-background shadow-md"
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold tracking-tight">
@@ -34,7 +34,7 @@ export default function Header() {
           <Link href="#projects" className="hover:underline">
             Projetos
           </Link>
-          <Link href="#skills" className="hover:underline">
+          <Link href="/skills" className="hover:underline">
             Habilidades
           </Link>
           <Link href="#cv" className="hover:underline">

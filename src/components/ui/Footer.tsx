@@ -7,7 +7,7 @@ export default function Footer() {
       initial={{ y: 100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className=" backdrop-blur bg-white/10 dark:bg-white/10 shadow-md"
+      className=" backdrop-blur bg-white/30"
     >
       <p className="text-center p-4">Alan Perdomo &copy; {new Date().getFullYear()}</p>
     </motion.footer>
